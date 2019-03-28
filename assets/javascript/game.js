@@ -11,17 +11,17 @@ var selectableWords = [
 ];
 
 
-const maxTries = 10;            // Maximum number of tries player has
+const maxTries = 10;            // Maximum number of tries player 
 
-var guessedLetters = [];        // Stores the letters the user guessed
-var currentWordIndex;           // Index of the current word in the array
-var guessingWord = [];          // This will be the word we actually build to match the current word
-var remainingGuesses = 0;       // How many tries the player has left
-var gameStarted = false;        // Flag to tell if the game has started
-var hasFinished = false;        // Flag for 'press any key to try again'     
-var wins = 0;                   // How many wins has the player racked up
+var guessedLetters = [];        // Stores the letters guessed
+var currentWordIndex;           // Index current word 
+var guessingWord = [];          // word we build to match the current word
+var remainingGuesses = 0;       // number of remaining guesses
+var gameStarted = false;        // Game has started
+var hasFinished = false;        // popup 'press any key to try again'     
+var wins = 0;                   // number of wins
 
-// Reset our game-level variables
+// Reset our game variables
 function resetGame() {
     remainingGuesses = maxTries;
     gameStarted = false;
@@ -33,10 +33,9 @@ function resetGame() {
     guessedLetters = [];
     guessingWord = [];
 
-    // Make sure the hangman image is cleared
-    // document.getElementById("hangmanImage").src = "";
+    
     console.log(selectableWords[currentWordIndex])
-    // Build the guessing word and clear it out
+    // Guessing word and clear it out
     for (var i = 0; i < selectableWords[currentWordIndex].length; i++) {
         guessingWord.push("_");
     }
@@ -51,6 +50,8 @@ function resetGame() {
     // Show display
     updateDisplay();
 };
+
+resetGame();
 document.onkeyup = function (event) {
     // If we finished a game, dump one keystroke and reset.
     if (hasFinished) {
@@ -91,7 +92,15 @@ function updateDisplay() {
     }
 };
 
-
+function checkWin() {
+    console.log(guessingWord)
+    if (guessingWord.indexOf("_") === -1) {
+        document.getElementById("youwin-image").style.cssText = "display: block";
+        document.getElementById("pressKeyTryAgain").style.cssText = "display: block";
+        wins++;
+        hasFinished = true;
+    }
+};
 
 function makeGuess(letter) {
     if (remainingGuesses > 0) {
@@ -109,6 +118,8 @@ function makeGuess(letter) {
     updateDisplay();
     checkWin();
 };
+
+
 
 // This function takes a letter and finds all instances of 
 // appearance in the string and replaces them in the guess word.
@@ -136,14 +147,7 @@ function evaluateGuess(letter) {
 };
 
 
-function checkWin() {
-    if (guessingWord.indexOf("_") === -1) {
-        document.getElementById("youwin-image").style.cssText = "display: block";
-        document.getElementById("pressKeyTryAgain").style.cssText = "display: block";
-        wins++;
-        hasFinished = true;
-    }
-};
+
 
 
 
