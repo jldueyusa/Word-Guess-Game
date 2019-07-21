@@ -35,7 +35,7 @@ To view a play by play instructional video by clicking the link below
 
 ![Word4](https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/word4.png)
 
-4. Otherwise, you lose but can try again as the game will reload.
+5. Otherwise, you lose but can try again as the game will reload.
 
 ![Word5](https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/word5.png)
 
