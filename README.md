@@ -21,23 +21,23 @@ To view a play by play instructional video by clicking the link below
 
 1. Click the link [here](https://crystalcollector777.herokuapp.com/) to launch the game. Press any key to start the game. Your number of guesses will remain the same each time you enter a correct letter.
 
-![Word1](https://github.com/jldueyusa/unit-4-game/blob/master/images/crystal1.png)
+![Word1](https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/word1.png)
 
 2. For each incorrect letter, your number of guesses will go down.
 
-![Word2](https://github.com/jldueyusa/unit-4-game/blob/master/images/crystal2.png)
+![Word2](https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/word2.png)
 
 3. If you guess the correct band, you win! 
 
-![Word3](https://github.com/jldueyusa/unit-4-game/blob/master/images/crystal3.png)
+![Word3](https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/word3.png)
 
 4. By hitting another letter game will start over and your win will be logged.
 
-![Word4](https://github.com/jldueyusa/unit-4-game/blob/master/images/crystal4.png)
+![Word4](https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/word4.png)
 
 4. Otherwise, you lose but can try again as the game will reload.
 
-![Word5](https://github.com/jldueyusa/unit-4-game/blob/master/images/crystal4.png)
+![Word5](https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/word5.png)
 
 # Tools and Applications
 - JavaScript
