@@ -1,3 +1,7 @@
+// to launch in heroku create the composer.json file by running touch composer.json and add {}
+// then run touch index.php
+// enter this into that file   <?php include_once("index.html"); ?>
+
 // my array of words
 var selectableWords = [
     "ratt",
