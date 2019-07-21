@@ -19,7 +19,7 @@ To view a play by play instructional video by clicking the link below
 
 ### Step by step visual instructions
 
-1. Click the link [here](https://crystalcollector777.herokuapp.com/) to launch the game. Press any key to start the game. Your number of guesses will remain the same each time you enter a correct letter.
+1. Click the link [here](https://hangman777.herokuapp.com/) to launch the game. Press any key to start the game. Your number of guesses will remain the same each time you enter a correct letter.
 
 ![Word1](https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/word1.png)
 
