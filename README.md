@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/jldueyusa/unit-4-game/blob/master/images/readme.png" width="400" height="200">
+<img src="https://github.com/jldueyusa/Word-Guess-Game/blob/master/assets/images/80sHairImagesAll.PNG" width="300" height="250">
 </p>
 
 # Welcome to the Hangman Game
